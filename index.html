@@ -5,13 +5,20 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+			function codeAddress() {
+				var x = document.lastModified;
+				document.getElementById("site-update").innerHTML = x;
+			}
+		</script>
 		<script src="js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/custom.css"
 		<link rel="shortcut icon" href="favicon.ico"/>
+		
 </head>
 
-<body>
+<body onload="codeAddress();">
 
 <div class="jumbotron">
       <div class="container" style="height:275px;">
@@ -90,7 +97,11 @@
 	<hr>
 	<p>"I am always doing that which I cannot do, in order that I may learn how to do it."</p>
 	<p><small>&mdash;Pablo Picasso</small></p>
-	<p style="text-align:center"><small><br>Site made by Gerry Knapp. Last updated 1 November 2015.</p>
+	<p style="text-align:center"><small><br>Site made by Gerry Knapp. Last updated on:</p>
+	<p id="site-update"></p>
 </div>
+
+
+
 </body>
 </html>
