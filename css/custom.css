@@ -11,6 +11,35 @@
 	text-shadow: black 0.1em 0.1em 0.1em;
 }
 
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
 p {
 	text-align: justify;
+}
+
+/* NavBar edits from http://www.codingeverything.com/2014/02/BootstrapDocsSideBar.html */
+/* sidebar */
+.bs-docs-sidebar {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
 }
