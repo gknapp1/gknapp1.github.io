@@ -22,10 +22,12 @@
 
 <div class="jumbotron">
       <div class="container" style="height:275px;">
-        <h1 style="color:white;text-shadow:black 0.05em 0.05em 0.05em;text-align:left;height:50px;width">Gerry Knapp</h1>
+        <!--<h1 style="color:white;text-shadow:black 0.05em 0.05em 0.05em;text-align:left;height:50px;width">Gerry Knapp</h1>-->
 	  </div>
 </div>
-
+<div class="container-fluid vertical-align" style="text-align:left;background-color:black">
+	<p style="color:white;font-family:georgia;font-size:200%;padding:5px 0px 0px 0px"><b>Gerry Knapp</b></p>
+</div>
 <div class="container-fluid" style="padding: 0% 5% 5% 5%">
 	<ul class="nav nav-tabs">
 		<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
@@ -50,43 +52,97 @@
 		</div>
 		<div id="research" class="tab-pane fade">
 			<div class="container-fluid">
-				<p>I have always had a broad range of academic interests, which is why the multidisciplinary field of materials science and engineering appeals to me. During my time as a high school student at the Louisiana State University (LSU) Laboratory school and as an LSU undergraduate, I have been involved in a wide range of research projects in biological engineering, chemistry, civil engineering, and mechanical engineering&mdash;all of which have provided key elements to pursuing a career as materials science researcher.</p>
-				<div class="row vertical-align">
-					<div class="col-sm-6">	
-						<p>My first experience working in a research lab was in a biological engineering laboratory while I was a high school student. I was interested in biomaterials and interviewed with a professor fabricating biomedical devices. Over that summer, I joined a team two high school teachers on an NSF-sponsored <i>LA-SiGMA</i> project to develop lesson plans and lab experiments for demonstrating microfluidic concepts and devices to high school students. Working with teachers as colleagues gave me key insights to the teaching process and made my learning more reflective.</p>
-					</div>
-					<div class="col-sm-6">
-						<img src="./images/monroe-microfab.jpg" alt="Microfluidic device for reactivating frozen zebrafish zygotes."
-						width="400"
-						height="225">
+				<div class="row">
+					<nav class="col-sm-3 bs-docs-sidebar">
+						<ul id="sidebar" class="nav nav-stacked fixed">
+							<li><a href="#microfluidics">Microfluidic Devices</a></li>
+							<li><a href="#tablet">Android Development</a></li>
+							<li><a href="#viz">X-Ray Tomography</a></li>
+							<li><a href="#abroad">C-BN Nanotube Synthesis</a></li>
+							<!--
+							<li><a href="id2">Professional Activity</a>
+								<ul class="nav nav-stacked">
+									<li><a href="id3">Internship</a></li>
+								</ul>
+							</li>
+							<li><a href="id4">Groupwork</a></li>
+							<li><a href="id5">NSF I-Corps</a></li>
+							-->
+						</ul>
+					</nav>
+					<div class="col-sm-9">
+						<p>I have always had a broad range of academic interests, which is why the multidisciplinary field of materials science and engineering appeals to me. During my time as a high school student at the Louisiana State University (LSU) Laboratory school and as an LSU undergraduate, I have been involved in a wide range of research projects in biological engineering, chemistry, civil engineering, and mechanical engineering&mdash;all of which have provided key elements to pursuing a career as materials science researcher.</p>
+					
+						<section id="microfluidics" class="group">
+							<div class="row">
+								<h3>Microfluidic Devices</h3>
+								<hr>
+							</div>
+							<div class="row">
+								<div class="col-sm-4">
+									<img src="./images/monroe-microfab.jpg" alt="Microfluidic device for reactivating frozen zebrafish zygotes." height="auto" width="90%">
+									<div class="caption"><p style="text-align:left">Microfluidic mixing device for reactivating cryogenically frozen zebrafish sperm.</p></div>
+								</div>
+								<div class="col-sm-8">
+									<p>My first experience working in a research lab was in a biological engineering laboratory while I was a high school student. I was interested in biomaterials and interviewed with a professor fabricating biomedical devices. Over that summer, I joined a team two high school teachers on an NSF-sponsored <i>LA-SiGMA</i> project to develop lesson plans and lab experiments for demonstrating microfluidic concepts and devices to high school students. Working with teachers as colleagues gave me key insights to the teaching process and made my learning more reflective.</p>
+									<p>I continued my work in this research lab for the two years of after arriving at LSU. I used photolithography to manufacture polymer-based microfluidic device molds and subsequently fabricated and characterized the actual devices. The goal was to create low-cost devices to improve performance of cryogenically-stored zebrafish zygote reactivation, which reduces biological sample waste. For part of this time I was funded through the <i>Howard Hughes Medical Institute (HHMI) Summer Scholars</i> program. I co-authored a paper titled “<a href="http://link.springer.com/article/10.1007/s10544-015-9957-6">Microfluidics and numerical simulation as methods for standardization of zebrafish sperm cell activation</a>,” published May 2015, in <i>Biomedical Microdevices</i>.</p>
+								</div>
+							</div>
+						</section>
+					
+						<section id="tablet" class="group">
+						<div class="row">
+							<h3>Android Tablet Application Development</h3>
+							<hr>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="./images/assessment-app.jpg" alt="Application running on tablet" height="auto" width="90%">
+								<div class="caption"><p style="text-align:left">Application demo on an Android tablet.</p></div>
+							</div>
+							<div class="col-sm-8">
+								<p>During a break from working in the biological research lab, my first year at LSU I worked on another research project, relating to Civil Engineering, as part of my Chancellor’s Research Scholarship. In this project, I developed a tablet application for building damage assessment after natural disasters such as hurricanes. While I was still interested in biology and biomaterials, this project offered a chance to learn about structural materials, and to indulge myself in learning a new technology. Over the year, I taught myself how to code in Java and worked with graduate students to make sure the application recorded all of the information they needed. While I determined that a computer science career was not for me, the experience showed me how a working knowledge of programming was critical to many facets of scientific research. The programming knowledge I gained in this project later qualified me to become part of a physical chemistry research group running materials analysis on a high performance computing cluster.</p>
+							</div>
+						</div>
+						</section>
+						
+						<section id="viz" class="group">
+						<div class="row">
+							<h3>X-Ray Tomography and Visualization</h3>
+							<hr>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="./images/ictms-gerry.jpg" alt="Presenting poster at international conference" height="auto" width="90%">
+								<div class="caption"><p style="text-align:left">Presenting a poster on visualization data processing workflow at the International Conference on Tomography of Materials and Structures (Quebec, June 2015)</p></div>
+								<br>
+								<img src="./images/avizo-h2cell.png" alt="Avizo rendering of hydrogen fuel cell neutron imaging data" height="auto" width="90%">
+								<div class="caption"><p style="text-align:left">Visualization of neutron imaging data of a hydrogen fuel cell</p></div>
+							</div>
+							<div class="col-sm-8">
+								<p>After taking a course in scientific visualization, I was offered a summer research internship with the course’s professor, Dr. Butler. There, I transferred existing algorithms for processing x-ray tomography data into a format that could work in parallel, high performance computing. In addition, I helped two high school teachers transfer the computer visualization aspect of the work into an eBook for their students. I worked in this research position while concurrently working part-time in the biological engineering laboratory, where I was training a new graduate student on the microfluidics project. The work with Dr. Butler led to co-authorship of a conference proceeding titled "<a href="http://www.institute.loni.org/lasigma/ret/documents/papers2013/ChrisHynes_ShawnLiner_Paper.pdf">Data Workflow and Visualization: X-Ray Interferometry, Vistrails and IPad/Android Collaboration</a>” for the <i>LA-SiGMA 2013 Symposium</i>.</p>
+								<p>When I returned to LSU, I was offered an undergraduate research assistant position with Dr. Butler to work on a W.M. Keck Foundation grant building a novel grating-based x-ray interferometry instrument to be used on the LSU synchrotron x-ray beamline. My main role was to work with a multi-disciplinary team of physicists, chemists, and an electrical engineer to create a mechanical design and assemble the instrument, but I also continued on the development of the data workflow and visualization. This work led to the creation of an instrument capable of low-dose phase contrast and dark field imaging that will allow for x-ray sensitive medical samples to be observed, and an increased capability for data processing documentation and repeatability. Overall, this work produced two poster presentations at LSU, a refereed extended abstract and poster presentation at the <i>2015 ITCMS</i> conference in Quebec City, and an in-preparation paper on the first results of using the instrument for analyzing 3-D printed ABS parts produced by fused deposition modelling.</p>
+							</div>
+						</div>
+						</section>
+						
+						<section id="abroad" class="group">
+						<div class="row">
+							<h3>Carbon-Boron Nitride Nanotube Synthesis</h3>
+							<hr>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="./images/lyon-thanksgiving.JPG" alt="Presenting poster at international conference" height="auto" width="90%">
+								<div class="caption"><p style="text-align:left">Thanksgiving Dinner with classmates in Lyon, France</p></div>
+							</div>
+							<div class="col-sm-8">
+								<p>I decided materials science was the field I wanted to pursue for my graduate studies during a self-organized semester study abroad at UCBL 1 in Lyon, France, where I worked as a research assistant in a nanomaterials laboratory. My project was create hybrid carbon and boron-nitride nanotubes via electric arc synthesis. That semester was an intense training in chemistry, French, and the importance of celebrating research progress with champagne. Near the end of the semester, when looking at the nanotubes at 1,000,000x resolution on a Transmission Electron Microscope, it became clear to me I wanted to continue in the field.</p>
+							</div>
+						</div>
+						</section>
 					</div>
 				</div>
-				<br>
-				
-				<p>I continued my work in this research lab for the two years of after arriving at LSU. I used photolithography to manufacture polymer-based microfluidic device molds and subsequently fabricated and characterized the actual devices. The goal was to create low-cost devices to improve performance of cryogenically-stored zebrafish zygote reactivation, which reduces biological sample waste. For part of this time I was funded through the <i>Howard Hughes Medical Institute (HHMI) Summer Scholars</i> program. I co-authored a paper titled “<a href="http://link.springer.com/article/10.1007/s10544-015-9957-6">Microfluidics and numerical simulation as methods for standardization of zebrafish sperm cell activation</a>,” published May 2015, in <i>Biomedical Microdevices</i>.</p>
-				
-				<div class="row vertical-align">
-					<div class="col-sm-6">
-						<img src="./images/ictms-gerry.jpg" alt="Presenting a poster at the International Conference on Tomography in Materials Science (2015)"
-						width="275"
-						height="326"
-						style="text-align:center">
-						<br>
-					</div>
-					<div class="col-sm-6">	
-						<p>During a break from working in the biological research lab, my first year at LSU I worked on another research project, relating to Civil Engineering, as part of my Chancellor’s Research Scholarship. In this project, I developed a tablet application for building damage assessment after natural disasters such as hurricanes. While I was still interested in biology and biomaterials, this project offered a chance to learn about structural materials, and to indulge myself in learning a new technology. Over the year, I taught myself how to code in Java and worked with graduate students to make sure the application recorded all of the information they needed. While I determined that a computer science career was not for me, the experience showed me how a working knowledge of programming was critical to many facets of scientific research. The programming knowledge I gained in this project later qualified me to become part of a physical chemistry research group running materials analysis on a high performance computing cluster.</p>
-					</div>
-				</div>
-				<br>
-				
-				<p>After taking a course in scientific visualization, I was offered a summer research internship with the course’s professor, Dr. Butler. There, I transferred existing algorithms for processing x-ray tomography data into a format that could work in parallel, high performance computing. In addition, I helped two high school teachers transfer the computer visualization aspect of the work into an eBook for their students. I worked in this research position while concurrently working part-time in the biological engineering laboratory, where I was training a new graduate student on the microfluidics project. The work with Dr. Butler led to co-authorship of a conference proceeding titled "<a href="http://www.institute.loni.org/lasigma/ret/documents/papers2013/ChrisHynes_ShawnLiner_Paper.pdf">Data Workflow and Visualization: X-Ray Interferometry, Vistrails and IPad/Android Collaboration</a>” for the <i>LA-SiGMA 2013 Symposium</i>.</p>
-				
-				<img class="center-block" src="./images/avizo-h2cell.png" width="500" height="300">
-				<br>
-				
-				<p>I decided materials science was the field I wanted to pursue for my graduate studies during a self-organized semester study abroad at UCBL 1 in Lyon, France, where I worked as a research assistant in a nanomaterials laboratory. My project was create hybrid carbon and boron-nitride nanotubes via electric arc synthesis. That semester was an intense training in chemistry, French, and the importance of celebrating research progress with champagne. Near the end of the semester, when looking at the nanotubes at 1,000,000x resolution on a Transmission Electron Microscope, it became clear to me I wanted to continue in the field.</p>
-
-				<p>When I returned to LSU, I was offered an undergraduate research assistant position with Dr. Butler to work on a W.M. Keck Foundation grant building a novel grating-based x-ray interferometry instrument to be used on the LSU synchrotron x-ray beamline. My main role was to work with a multi-disciplinary team of physicists, chemists, and an electrical engineer to create a mechanical design and assemble the instrument, but I also continued on the development of the data workflow and visualization. This work led to the creation of an instrument capable of low-dose phase contrast and dark field imaging that will allow for x-ray sensitive medical samples to be observed, and an increased capability for data processing documentation and repeatability. Overall, this work produced two poster presentations at LSU, a refereed extended abstract and poster presentation at the <i>2015 ITCMS</i> conference in Quebec City, and an in-preparation paper on the first results of using the instrument for analyzing 3-D printed ABS parts produced by fused deposition modelling.</p>
 			</div>
 		</div>
 		<div id="engineering" class="tab-pane fade">
@@ -104,6 +160,7 @@
 					</ul>				
 				</nav>
 				<div class="col-sm-9">
+
 					<section id="Academics" class="group">
 					<h3>Academics</h3>
 					<p>In addition to my mechanical engineering major, I am pursuing a minor in materials science/engineering. The extra courses I have taken to complete the minor have allowed me opportunities to learn how to carry out advanced materials analysis through techniques like Scanning Electron Microscopy and X-Ray Diffraction, while the main courses I have taken provided the core competencies any mechanical engineer should possess: strengths of materials, fluid mechanics, failure criterion, dynamic and kinematic studies, etc.</p>
@@ -163,44 +220,52 @@
 				<br>
 				
 				<p>I have had many roles within the LSU College of Engineering's "Encounter Engineering camp" for incoming freshman (originally created as part of an NSF STEP grant).  This camp is a week long program that gives incoming students an opportunity to meet each other, learn study skills, learn from mentor students, and to generally get a taste of what college is going to be like. I have been a peer mentor for the students, and when the camp doubled in size, I was selected to be part of a four-person team to create the engineering design project that helps students develop teamwork and engineering problem solving skills.</p>
+			</div>
 		</div>
-	</div>
-	<div id="projects" class="tab-pane fade">
-		<div class="container-fluid">
-			<div class="row">
-				<nav class="col-sm-3 bs-docs-sidebar">
-					<!-- comment out until have project heading IDs
-					<ul id="sidebar" class="nav nav-stacked fixed">
-						<li><a href="id1">Academics</a></li>
-						<li><a href="id2">Professional Activity</a>
-							<ul class="nav nav-stacked">
-								<li><a href="id3">Internship</a></li>
-							</ul>
-						</li>
-						<li><a href="id4">Groupwork</a></li>
-						<li><a href="id5">NSF I-Corps</a></li>
-					</ul>
-					-->
-				</nav>
-				<div class="col-sm-9">
-					<!--Put project info here. Consider using media thumbnails -->
-					<div class="row">
-						<div class="thumbnail">
-							<img src="/images/placeholder.png" alt="Placeholder image">
+		
+		<div id="projects" class="tab-pane fade">
+			<div class="container-fluid">
+				<div class="row">
+					<nav class="col-sm-3 bs-docs-sidebar">
+						<ul id="sidebar" class="nav nav-stacked fixed">
+							<li><a href="Project1">Project #1</a></li>
+							<!--
+							<li><a href="id2">Professional Activity</a>
+								<ul class="nav nav-stacked">
+									<li><a href="id3">Internship</a></li>
+								</ul>
+							</li>
+							<li><a href="id4">Groupwork</a></li>
+							<li><a href="id5">NSF I-Corps</a></li>
+							-->
+						</ul>
+					</nav>
+					<div class="col-sm-9">
+						<!--Project Description Template-->
+						<section id="Project1" class="group">
+						<div class="row">
+							<h3>Project Title #1</h3>
+							<hr>
 						</div>
-					</div>
-					<div class="row">	
-						<div class="caption">
-							<h3><!--Project title-->Project Title</h3>
-							<p><!--Text for project description-->Project description.</p>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="./images/placeholder.png" alt="Placeholder image" height="200px" width="90%">
+								<div class="caption"><p>Placeholder caption</p></div>
+							</div>
+							<div class="col-sm-8">
+								<p>Project description #1</p>
+							</div>
 						</div>
+						</section>
 					</div>
-				</div>
-			</div>	
+				</div>	
+			</div>
 		</div>
 	</div>
 </div>
 
+<br>
+<br>
 <div class="container-fluid" id="footer" style="text-align:center;background-color:lightgrey">
 	<br>
 	<p style="text-align:center">"I am always doing that which I cannot do, in order that I may learn how to do it."</p>
