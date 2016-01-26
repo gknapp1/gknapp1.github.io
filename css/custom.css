@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.caption {
+	font-style: italic;
+}
+
 p {
 	text-align: justify;
 }
