@@ -7,6 +7,7 @@
 	background-image: url(../images/banner.JPG);
 	background-size: cover;
 	background-repeat:no-repeat;
+	background-position:center bottom;
 	color: white;
 	text-shadow: black 0.1em 0.1em 0.1em;
 }
